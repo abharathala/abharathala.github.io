@@ -43,8 +43,29 @@
 	font-weight: lighter;
 	font-size: 18px;
 	font-family: 'Roboto';
-	margin-top: 5%;
+	margin-top: 3.5%;
 	margin-left: 40%;
 	width: 50%;
 	color: grey;
+}
+
+button {
+	margin: 5px;
+	margin-top: 20px;
+	padding: 10px;
+	border: none;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+#resume {
+	background-color: #ccb6b9;
+}  
+
+#linkedin {
+	background-color: #ffe8eb;
+}
+
+#contact {
+	background-color: #e0e0e0;
 }
