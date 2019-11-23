@@ -1,3 +1,50 @@
 * {
-	background: lightblue;
+	margin: 0px;
+}
+
+#upper-content {
+	background-color: #ffe8eb;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#upper-pic {
+	margin-top: 40px;
+	margin-right: 15%;
+}
+
+#lower-content {
+	height: 50%;
+}
+
+#lower-pic {
+	margin-left: 10%;
+	bottom: 0px;
+	position: fixed;
+}
+
+#upper-text {
+	font-size: 30px;
+	font-family: 'Ruda';
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.heading {
+	font-family: 'Ruda';
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+#lower-text {
+	font-weight: lighter;
+	font-size: 18px;
+	font-family: 'Roboto';
+	margin-top: 5%;
+	margin-left: 40%;
+	width: 50%;
+	color: grey;
 }
