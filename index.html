@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 	<head>
 		<title>Aparna Bharathala Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel = "stylesheet" type = "text/css" href = "assets/styles/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto|Ruda&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div id = "upper-content">
 			<div id = "upper-text"> 
-				<h1> Hi! My name <br> is Aparna Bharathala! </h1>
+				<h1> Hi! My name <br> is <span id = "name"> Aparna Bharathala! </span> </h1>
 			</div>
 			<img id = "upper-pic" src = "assets/images/aparnaFlipped.png" />
 		</div>
@@ -18,14 +19,44 @@
 				<p> 
 					I’m a senior at UC Berkeley studying Data Science & Cognitive Science. I am interested in Data Science and Full-Stack Development.
 					<br> <br>
-					Check out my resume and my graphic design work!
+					Check out my resume, LinkedIn and work experience!
 					Feel free to reach out to me with any opportunities!
 				</p>
 				<a href = "https://drive.google.com/file/d/1g9eOM77BVj1XwlX4Hp73vUPygbi2tv8f/view?usp=sharing" target = "_blank"><button id = "resume"> Resume </button></a>
 				<a href = "https://www.linkedin.com/in/abharathala/" target = "_blank"><button id = "linkedin"> Linkedin </button></a>
-				<a href = "mailto:abharathala@berkeley.edu" target = "_blank"> <button id = "contact"> Contact </button> </a>
+				<a href = "mailto:abharathala@berkeley.edu"> <button id = "contact"> Contact </button> </a>
+			</div>
+			<img id = "lower-pic" src = "assets/images/aparna.png"/>
+		</div>
+
+		<div id = "project-container">
+			<div id = "project-content"> 
+				<div id = "project-description">
+					<h3 class = "heading"> Projects </h3>
+					<p>
+						Below you will find a list of projects that I am currently working on or have worked on in the past. Enjoy!
+					</p>
+				</div>
+
+				<div class = "project-images">
+					<a href = "https://github.com/abharathala/lexicali" target = "_blank"> 
+						<div class = "project">
+							<img class = "image" src = "assets/images/lexicali.jpg" />
+						</div> 
+					</a>
+					<div class = "project">
+						<img class = "image" src = "assets/images/beach.jpg" />
+					</div>
+					<div class = "project">
+						<img class = "image" src = "assets/images/beach.jpg" />
+					</div>
+					<div class = "project">
+						<img class = "image" src = "assets/images/beach.jpg" />
+					</div>
+				</div>
+
 			</div>
 		</div>
-		<img id = "lower-pic" src = "assets/images/aparna.png" />
+
 	</body>
 </html>
