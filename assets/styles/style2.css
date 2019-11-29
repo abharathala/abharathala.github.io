@@ -10,6 +10,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 20px;
+	background-color: white;
 }
 
 .navbar-item {
@@ -28,8 +29,9 @@ a {
 	font-weight: bold;
 }
 
-a:hover {
-	text-decoration: underline solid #ccb6b9;
+.link-hover:hover {
+	border-bottom: 5px solid #ccb6b9;
+	margin-bottom: -5px;
 }
 
 .about {
@@ -45,7 +47,8 @@ a:hover {
 #about-image {
 	width: 40%;
 	height: 40%;
-	padding-left: 50px;
+	margin-left: 50px;
+	border: 5px solid #ccb6b9;
 }
 
 .about-links {
@@ -91,10 +94,22 @@ p {
 .image {
 	width: 300px;
 	height: 300px;
-	opacity: .5;
+	opacity: .6;
 }
 
 .image:hover {
 	/*box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), inset 0px 10px 10px rgba(0, 0, 0, 0.04);*/
 	opacity: 1;
+	transition: opacity .5s ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .about {
+    flex-direction: column;
+    width: 90%;
+  }
+  #about-image {
+  	margin-top: 10px;
+  	width: 100%;
+  }
 }
