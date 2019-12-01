@@ -152,6 +152,26 @@ p {
   width: 100%;
 }
 
+.project-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 75%;
+}
+
+.column-text {
+  width: 40%;
+  text-align: left;
+}
+
+#project-image {
+  width: 500px;
+  height: 400px;
+}
+
+.sub-header {
+  font-size: 24px;
+}
 
 .dashed {
   background: 
@@ -193,6 +213,15 @@ p {
   .navbar-item {
   	margin-top: 20px;
   }
+  .project-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .column-text {
+    width: 75%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -220,16 +249,13 @@ p {
   .item {
   	margin: 0px;
   }
-}
-
-@media (max-width: 500px) {
   .about {
     flex-direction: column;
     width: 90%;
   }
   #about-image {
-  	margin-top: 20px;
-  	margin-left: 0px;
-  	width: 90%;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 90%;
   }
 }
