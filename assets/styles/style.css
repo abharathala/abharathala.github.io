@@ -52,7 +52,7 @@ a {
 	width: 300px;
 	height: 450px;
 	margin-left: 50px;
-	border: 5px solid #ccb6b9;
+	/*border: 5px solid #ccb6b9;*/
 }
 
 .about-links {
@@ -150,6 +150,27 @@ p {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+
+.dashed {
+  background: 
+    linear-gradient(90deg, #ccb6b9 75%, transparent 25%),
+    linear-gradient(0deg, #ccb6b9 75%, transparent 25%),
+    linear-gradient(90deg, #ccb6b9 75%, transparent 25%),
+    linear-gradient(0deg, #ccb6b9 75%, transparent 25%);
+  background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+  background-size: 20px 5px, 5px 20px, 20px 5px, 5px 20px;
+  padding: 10px;
+  animation: dancingBorder 10s infinite linear;
+}
+	
+@keyframes dancingBorder {
+  0% {
+    background-position: left top, right top, right bottom, left bottom;
+  } 100% {
+    background-position: right top, right bottom, left bottom, left top;
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
