@@ -1,62 +1,52 @@
 <!DOCTYPE html>
 	<head>
 		<title>Aparna Bharathala Portfolio</title>
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel = "stylesheet" type = "text/css" href = "assets/styles/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto|Ruda&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700" rel="stylesheet">
 	</head>
+
 	<body>
-		<div id = "upper-content">
-			<div id = "upper-text"> 
-				<h1> Hi! My name <br> is <span id = "name"> Aparna Bharathala! </span> </h1>
+		<!-- navigation bar -->
+		<div class = "navbar">
+			<div class = "navbar-logo">
+				<a href = "#"><div class = "navbar-item underline">APARNA BHARATHALA</div></a>
 			</div>
-			<img id = "upper-pic" src = "assets/images/aparnaFlipped.png" />
+			<div class = "navbar-item">
+				<a href="projects.html"><div class = "item link-hover">PROJECTS</div></a>
+				<a href="graphicDesigns.html"><div class = "item link-hover">GRAPHIC DESIGNS</div></a>
+	  			<a href="https://drive.google.com/file/d/1g9eOM77BVj1XwlX4Hp73vUPygbi2tv8f/view?usp=sharing" target = "_blank">
+	  			<div class = "item link-hover">RESUME</div></a>
+	  			<a href="https://www.linkedin.com/in/abharathala/" target = "_blank">
+	  			<div class = "item link-hover">LINKEDIN</div></a>
+  			</div>
 		</div>
 
-		<div id = "lower-content">
-			<div id = "lower-text"> 
-				<h3 class = "heading"> About Me </h3>
+		<section class = "about"> 
+			<div class = "about-text">
+				<h1 style = "text-align: center; font-size: 2em;"> About Me </h1>
+				<br>
 				<p> 
-					I’m a senior at UC Berkeley studying Data Science & Cognitive Science. I am interested in Data Science and Full-Stack Development.
-					<br> <br>
-					Check out my resume, LinkedIn and work experience!
-					Feel free to reach out to me with any opportunities!
+					Hi! 👋My name is <span class = "underline"> Aparna Bharathala</span>.
+					<br>
+					<br>
+					I’m a senior at UC Berkeley 🐻studying <span class = "underline"> Data Science </span> & <span class = "underline"> Cognitive Science </span>. I am graduating in May 2020 🎓and interested in Data Science & Full-Stack Development.
+					<br> 
+					<br>
+					This past summer, I worked at <span class = "underline"> Bank of America </span> 🏦as an intern on the Cloud and Advanced Technology team. I was responsible for developing an end-to-end solution to help clients understand what data access the Bank has on them. 
+					<br>
+					<br>
+					In my spare time I love to sing 🎤, spend time with family and friends 👪, and during winter, curl up in bed with a cup of hot chocolate ☕.
+					<br>
+					<br>
+					Check out my <a class = "about-links" href="https://drive.google.com/file/d/1g9eOM77BVj1XwlX4Hp73vUPygbi2tv8f/view?usp=sharing" target = "_blank"> resume</a>, <a class = "about-links" href = "https://www.linkedin.com/in/abharathala/" target = "_blank"> LinkedIn</a>, <a class = "about-links" href = "projects.html"> projects</a>, and <a class = "about-links" href = "graphicDesigns.html"> graphic designs </a> for more information!
+					Feel free to reach out to me at <a class = "about-links" href = "mailto:abharathala@berkeley.edu">abharathala@berkeley.edu </a> with any opportunities! Thank you! 😊
+					<br>
 				</p>
-				<a href = "https://drive.google.com/file/d/1g9eOM77BVj1XwlX4Hp73vUPygbi2tv8f/view?usp=sharing" target = "_blank"><button id = "resume"> Resume </button></a>
-				<a href = "https://www.linkedin.com/in/abharathala/" target = "_blank"><button id = "linkedin"> Linkedin </button></a>
-				<a href = "mailto:abharathala@berkeley.edu"> <button id = "contact"> Contact </button> </a>
 			</div>
-			<img id = "lower-pic" src = "assets/images/aparna.png"/>
-		</div>
+			<img id = "about-image" src = "assets/images/aparna.jpg">
+		</section>
+	<body>
 
-		<div id = "project-container">
-			<div id = "project-content"> 
-				<div id = "project-description">
-					<h3 class = "heading"> Projects </h3>
-					<p>
-						Below you will find a list of projects that I am currently working on or have worked on in the past. Enjoy!
-					</p>
-				</div>
-
-				<div class = "project-images">
-					<a href = "https://github.com/abharathala/lexicali" target = "_blank"> 
-						<div class = "project">
-							<img class = "image" src = "assets/images/lexicali.jpg" />
-						</div> 
-					</a>
-					<div class = "project">
-						<img class = "image" src = "assets/images/beach.jpg" />
-					</div>
-					<div class = "project">
-						<img class = "image" src = "assets/images/beach.jpg" />
-					</div>
-					<div class = "project">
-						<img class = "image" src = "assets/images/beach.jpg" />
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-	</body>
 </html>
