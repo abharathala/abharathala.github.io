@@ -59,6 +59,16 @@ a {
 	font-size: 16px;
 }
 
+.about-links:hover{
+  color: #b37c84;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+  color: #b37c84;
+}
+
 p {
 	line-height: 1.5;
 }
@@ -173,7 +183,7 @@ p {
   font-size: 24px;
 }
 
-.dashed {
+/*.dashed {
   background: 
     linear-gradient(90deg, #ccb6b9 75%, transparent 25%),
     linear-gradient(0deg, #ccb6b9 75%, transparent 25%),
@@ -183,15 +193,20 @@ p {
   background-size: 20px 5px, 5px 20px, 20px 5px, 5px 20px;
   padding: 10px;
   animation: dancingBorder 10s infinite linear;
+}*/
+
+.dashed {
+  border: 5px dashed #ccb6b9;
+  padding: 5px;
 }
 	
-@keyframes dancingBorder {
+/*@keyframes dancingBorder {
   0% {
     background-position: left top, right top, right bottom, left bottom;
   } 100% {
     background-position: right top, right bottom, left bottom, left top;
   }
-}
+}*/
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
